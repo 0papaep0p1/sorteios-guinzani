@@ -1,0 +1,25 @@
+
+body {
+  background-color: #1b1f2a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2a2f40;
+}
+
+#sorteio-atual {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#premio-img {
+  width: 300px;
+  border-radius: 10px;
+  margin: 20px 0;
+}

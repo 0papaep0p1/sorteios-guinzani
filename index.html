@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sorteios Guinzani</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="firebase.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Sorteios Guinzani</h1>
+    <button id="login">Login com Google</button>
+    <span id="user-email"></span>
+  </header>
+
+  <main>
+    <section id="sorteio-atual">
+      <h2>Sorteio Atual</h2>
+      <img id="premio-img" src="" alt="Prêmio" />
+      <p id="descricao-premio"></p>
+      <div id="tickets"></div>
+      <input type="text" id="nome" placeholder="Seu nome/apelido" />
+      <button id="comprar">Comprar Ticket</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Transparência garantida com Provably Fair</p>
+    <div id="hash"></div>
+  </footer>
+</body>
+</html>
